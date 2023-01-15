@@ -1,0 +1,13 @@
+open chrome
+close chrome
+check email
+check weather
+whats the weather today?
+open calculator
+open whatsapp
+open canvas
+open PSCS
+play ayat ul kursi
+play pasoori
+namaz timing
+

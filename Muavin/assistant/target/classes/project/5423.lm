@@ -1,0 +1,81 @@
+Language model created by QuickLM on Wed Nov 30 13:02:56 EST 2022
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 15 words
+
+\data\
+ngram 1=15
+ngram 2=23
+ngram 3=20
+
+\1-grams:
+-0.9266 </s> -0.3010
+-0.9266 <s> -0.2463
+-1.8808 CALCULATOR -0.2463
+-1.8808 CANVAS -0.2463
+-1.5798 CHECK -0.2835
+-1.5798 CHROME -0.2463
+-1.8808 CLOSE -0.2894
+-1.8808 EMAIL -0.2463
+-1.1818 OPEN -0.2653
+-1.8808 PSCS -0.2463
+-1.8808 THE -0.2894
+-1.8808 TODAY? -0.2463
+-1.5798 WEATHER -0.2398
+-1.8808 WHATS -0.2953
+-1.8808 WHATSAPP -0.2463
+
+\2-grams:
+-0.9542 <s> CHECK 0.0000
+-1.2553 <s> CLOSE 0.0000
+-0.5563 <s> OPEN 0.0000
+-1.2553 <s> WHATS 0.0000
+-0.3010 CALCULATOR </s> -0.3010
+-0.3010 CANVAS </s> -0.3010
+-0.6021 CHECK EMAIL 0.0000
+-0.6021 CHECK WEATHER -0.1761
+-0.3010 CHROME </s> -0.3010
+-0.3010 CLOSE CHROME 0.0000
+-0.3010 EMAIL </s> -0.3010
+-1.0000 OPEN CALCULATOR 0.0000
+-1.0000 OPEN CANVAS 0.0000
+-1.0000 OPEN CHROME 0.0000
+-1.0000 OPEN PSCS 0.0000
+-1.0000 OPEN WHATSAPP 0.0000
+-0.3010 PSCS </s> -0.3010
+-0.3010 THE WEATHER -0.1761
+-0.3010 TODAY? </s> -0.3010
+-0.6021 WEATHER </s> -0.3010
+-0.6021 WEATHER TODAY? 0.0000
+-0.3010 WHATS THE 0.0000
+-0.3010 WHATSAPP </s> -0.3010
+
+\3-grams:
+-0.6021 <s> CHECK EMAIL
+-0.6021 <s> CHECK WEATHER
+-0.3010 <s> CLOSE CHROME
+-1.0000 <s> OPEN CALCULATOR
+-1.0000 <s> OPEN CANVAS
+-1.0000 <s> OPEN CHROME
+-1.0000 <s> OPEN PSCS
+-1.0000 <s> OPEN WHATSAPP
+-0.3010 <s> WHATS THE
+-0.3010 CHECK EMAIL </s>
+-0.3010 CHECK WEATHER </s>
+-0.3010 CLOSE CHROME </s>
+-0.3010 OPEN CALCULATOR </s>
+-0.3010 OPEN CANVAS </s>
+-0.3010 OPEN CHROME </s>
+-0.3010 OPEN PSCS </s>
+-0.3010 OPEN WHATSAPP </s>
+-0.3010 THE WEATHER TODAY?
+-0.3010 WEATHER TODAY? </s>
+-0.3010 WHATS THE WEATHER
+
+\end\
